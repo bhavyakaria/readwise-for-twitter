@@ -1,7 +1,7 @@
 const express = require('express');
 require('dotenv').config();
 const Twitter = require('twitter');
-const config = require('./config/config.js');
+const config = require('./config/config');
 
 const app = express();
 const twitter = new Twitter(config);
